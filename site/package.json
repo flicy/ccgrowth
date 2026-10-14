@@ -1,0 +1,23 @@
+{
+  "name": "chris-personal-3d",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5193",
+    "build": "vite build",
+    "build:github": "vite build --mode github --configLoader runner && node scripts/build-project-pages.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 5193",
+    "test": "node --test tests/*.test.js",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "lucide": "0.468.0",
+    "three": "0.183.2"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.58.0",
+    "vite": "6.4.1",
+    "wrangler": "^4.137.0"
+  }
+}
