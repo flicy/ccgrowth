@@ -985,8 +985,8 @@ export const projects = [
       "en": "Products"
     },
     "description": {
-      "zh": "围绕同传与对比练习组织英语训练。",
-      "en": "An English practice experiment built around interpreting and comparison."
+      "zh": "选一段中文听译并录音，再用逐句对比标记英语表达的差距。",
+      "en": "Interpret a Chinese passage into English, record it, then mark gaps through sentence-by-sentence comparison."
     },
     "audience": {
       "zh": "希望进行英语口语与听说练习的人。",
@@ -997,28 +997,36 @@ export const projects = [
       "en": "Language practice benefits from a repeatable routine and comparison."
     },
     "workflow": {
-      "zh": "从仓库获取训练器 → 按当前代码与页面完成练习。",
-      "en": "Get the trainer from the repository → follow the implemented practice flow."
+      "zh": "选择话题或粘贴逐句选段 → 听中文并同传录音 → 进入三份文稿对比 → 标记差距与整理打卡。",
+      "en": "Choose a topic or paste a passage → listen and record an interpretation → compare three transcripts → mark gaps and prepare a check-in."
     },
     "features": {
       "zh": [
         {
-          "title": "听说训练探索",
-          "detail": "将英语口语备考放进可操作的训练器。"
+          "title": "话题与自定义选段",
+          "detail": "选择练习话题，或粘贴每句一行的文本。"
         },
         {
-          "title": "代码可获取",
-          "detail": "公开仓库保留当前实现，便于检查和继续迭代。"
+          "title": "听译与录音",
+          "detail": "界面提供播放速度选择、同传录音与计时。"
+        },
+        {
+          "title": "逐句对比",
+          "detail": "围绕三份文稿比较表达，标记差距并整理练习记录。"
         }
       ],
       "en": [
         {
-          "title": "Speaking practice experiment",
-          "detail": "An interactive training concept for spoken-English preparation."
+          "title": "Topics and custom passages",
+          "detail": "Select a topic or paste text with one sentence per line."
         },
         {
-          "title": "Available code",
-          "detail": "The public repository preserves the current implementation for inspection and iteration."
+          "title": "Listening and recording",
+          "detail": "The interface provides playback-speed options, recording and timing."
+        },
+        {
+          "title": "Sentence comparison",
+          "detail": "Compare three transcripts, mark expression gaps and organize practice notes."
         }
       ]
     },
@@ -1027,8 +1035,8 @@ export const projects = [
       "en": "Public code · Experiment"
     },
     "availability": {
-      "zh": "公开仓库可访问；当前在线训练入口与具体训练能力仍待逐项核验。",
-      "en": "The public repository is available; the live training entry and detailed capabilities still need verification."
+      "zh": "公开仓库可访问；录音需要浏览器麦克风权限，文稿生成和完整训练链路仍需按当前配置复核。",
+      "en": "The public repository is available. Recording needs browser microphone permission; transcript generation and the full practice flow still require validation with the current configuration."
     },
     "screenshots": [],
     "updated": "2026-10-15",
@@ -1804,16 +1812,16 @@ export const projects = [
   {
     "id": "crosspost",
     "title": {
-      "zh": "CrossPost · 多平台内容工作流",
-      "en": "CrossPost · Cross-platform Content"
+      "zh": "CrossPost · 小红书 / X / 即刻格式工作台",
+      "en": "CrossPost · Xiaohongshu, X & Jike"
     },
     "category": {
       "zh": "工具与 Skill",
       "en": "Tools & Skills"
     },
     "description": {
-      "zh": "将一次内容创作接到多个平台的适配与发布流程。",
-      "en": "Connect one piece of content with adaptation and publishing across platforms."
+      "zh": "一份原稿，同时预览小红书、X 与即刻的格式，复制适配后的内容。",
+      "en": "Preview one draft for Xiaohongshu, X and Jike, then copy each adapted version."
     },
     "role": {
       "zh": "独立设计与开发",
@@ -1838,34 +1846,42 @@ export const projects = [
       "en": "Repeated formatting and posting can produce inconsistent versions."
     },
     "workflow": {
-      "zh": "准备原始内容 → 进入当前工具提供的平台流程 → 核对后发布。",
-      "en": "Prepare source content → follow the platform flows implemented by the tool → review and publish."
+      "zh": "输入原稿 → 查看三端格式、标题与长度提示 → 复制各平台文案 → 到目标平台完成发布。",
+      "en": "Enter a draft → review platform formats, titles and length hints → copy each version → complete publication on the destination platform."
     },
     "features": {
       "zh": [
         {
-          "title": "同源内容复用",
-          "detail": "围绕一份原稿组织多平台工作。"
+          "title": "三端格式预览",
+          "detail": "将一份原稿分别呈现为小红书、X 和即刻的预览。"
         },
         {
-          "title": "流程代码保留",
-          "detail": "公开仓库保留实现，便于继续核查支持的平台与适配方式。"
+          "title": "轻量格式约定",
+          "detail": "用首行、标签、链接行与空行组织标题、标签和段落。"
+        },
+        {
+          "title": "复制与发布入口",
+          "detail": "分别复制全文或首条内容；界面提供 X 发布入口。"
         }
       ],
       "en": [
         {
-          "title": "Reuse a source",
-          "detail": "Organize multi-platform work around one original draft."
+          "title": "Three platform previews",
+          "detail": "Render the same draft for Xiaohongshu, X and Jike."
         },
         {
-          "title": "Preserved implementation",
-          "detail": "Public code allows continued inspection of supported platforms and adapters."
+          "title": "Simple formatting conventions",
+          "detail": "Use the first line, tags, link lines and blank lines to organize titles and paragraphs."
+        },
+        {
+          "title": "Copy and publishing entry",
+          "detail": "Copy full text or a first post, with an X publishing entry in the interface."
         }
       ]
     },
     "availability": {
-      "zh": "当前支持平台、自动化程度与账号接入方式以仓库代码为准，尚未把所有链路重新验通。",
-      "en": "Supported platforms, automation and account setup depend on current code; not every flow has been revalidated."
+      "zh": "公开版本以格式预览和复制为主；小红书和即刻的直接发布按钮仍标注“开发中”，不宣称三端自动发布已验通。",
+      "en": "The public version centers on previews and copying. Direct publishing for Xiaohongshu and Jike is labeled “in development”; a verified three-platform autopublishing flow is not claimed."
     },
     "screenshots": [],
     "updated": "2026-10-15",
@@ -2063,22 +2079,22 @@ export const projects = [
     "features": {
       "zh": [
         {
-          "title": "结构化行李",
-          "detail": "将打包事项组织成清单。"
+          "title": "按行李位置分类",
+          "detail": "把随身背包与托运行李分开，按物品用途分组。"
         },
         {
-          "title": "轻量旅行工具",
-          "detail": "围绕一次真实旅行需求制作的单用途小工具。"
+          "title": "勾选状态保存",
+          "detail": "清单包含浏览器自动保存、已完成计数和重置入口。"
         }
       ],
       "en": [
         {
-          "title": "Structured packing",
-          "detail": "Organize packing requirements into a list."
+          "title": "Group by luggage location",
+          "detail": "Separate carry-on and checked luggage and group items by purpose."
         },
         {
-          "title": "Lightweight travel utility",
-          "detail": "A single-purpose tool built from an actual travel need."
+          "title": "Saved checkmarks",
+          "detail": "The list includes browser persistence, completion counts and a reset control."
         }
       ]
     },
@@ -2087,8 +2103,8 @@ export const projects = [
       "en": "Public code · Travel utility"
     },
     "availability": {
-      "zh": "代码可访问；线上体验与持久化能力尚待重新核验。",
-      "en": "Source is public; the live experience and persistence behavior still need revalidation."
+      "zh": "公开代码是一份个人旅行模板。使用时先按自己的行程替换物品与备注，行李和入境要求需自行核对当次规定。",
+      "en": "The public code is a personal-trip template. Replace items and notes for your own trip, and check the current baggage and entry requirements separately."
     },
     "screenshots": [],
     "updated": "2026-10-15",
