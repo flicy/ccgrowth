@@ -53,6 +53,7 @@ Changes to `site/` on `main` run tests and deploy the resulting Pages artifact. 
 
 | 产品 / Work | 用途 / Purpose | 代码 / Code |
 |---|---|---|
+| [多平台内容分析台 / Multiplatform Content Analytics](https://flicy.github.io/ccgrowth/projects/provenmart-analysis/) | 多平台内容、转化与下一轮测试的交互演示，数据为示意值。<br>An interactive demo connecting content, conversions and next tests, using illustrative data. | 未公开 / Not public |
 | [第二现场 · AI 观赛搭子 / Second Court · AI Match Companion](https://flicy.github.io/ccgrowth/projects/second-court/) | 用三种搭子人格陪你看一场篮球比赛，理解回合、提问和参与预测。<br>Follow a basketball game with three companion personas, explanations, questions and predictions. | [GitHub](https://github.com/flicy/second-court) |
 | [Poco · 桌面陪伴宠物 / Poco · Desktop Companion](https://flicy.github.io/ccgrowth/projects/poco/) | 让一个数字宠物陪你出现在工作桌面上。<br>A digital pet that lives alongside your desktop work. | 未公开 / Not public |
 | [灵偶 Ling · 儿童陪伴玩偶 / Ling · Child Companion Toy](https://flicy.github.io/ccgrowth/projects/ling/) | 一只羊毛毡猫头鹰，探索能记住孩子故事的语音陪伴。<br>A wool-felt owl exploring voice companionship that remembers a child’s stories. | 未公开 / Not public |
