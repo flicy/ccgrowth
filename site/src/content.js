@@ -89,7 +89,6 @@ export const chapters = [
     },
     "notes": [],
     "projects": [
-      "provenmart-analysis",
       "research-agent"
     ]
   },
@@ -509,95 +508,6 @@ export const projects = [
     "updated": "2026-10-15",
     "links": [],
     "mark": "Y·"
-  },
-  {
-    "id": "provenmart-analysis",
-    "mark": "PA",
-    "group": "prototypes",
-    "updated": "2026-10-15",
-    "title": {
-      "zh": "多平台内容分析台",
-      "en": "Multiplatform Content Analytics"
-    },
-    "category": {
-      "zh": "业务产品 · 交互 Demo",
-      "en": "Business product · Interactive demo"
-    },
-    "description": {
-      "zh": "把多平台内容表现、账号、转化和用户反馈连到下一轮测试决策。",
-      "en": "Connect content performance, accounts, conversions and feedback with the next round of testing."
-    },
-    "audience": {
-      "zh": "需要复盘海外内容投放的品牌、内容团队和增长负责人。",
-      "en": "Brands, content teams and growth leads reviewing international content campaigns."
-    },
-    "problem": {
-      "zh": "播放、发布与站内转化的来源不同，跨平台口径不一致，团队难以说明这轮哪里有效、下一轮改什么。",
-      "en": "Views, publishing records and website events come from different sources; inconsistent definitions make results and next steps hard to explain."
-    },
-    "workflow": {
-      "zh": "先看单平台总览 → 钻到账号、单条内容与分类 → 查看转化与反馈 → 输出报告与下一轮测试单。",
-      "en": "Start with a platform overview → inspect accounts, content and categories → review conversions and feedback → create a report and next test plan."
-    },
-    "features": {
-      "zh": [
-        {
-          "title": "从总览钻到内容",
-          "detail": "平台大盘、账号排期、单条内容、内容分类与转化分开分析。"
-        },
-        {
-          "title": "把分析接到下一步",
-          "detail": "报告、热门与竞品、用户反馈和下一轮测试单放入同一工作台。"
-        },
-        {
-          "title": "保留数据口径",
-          "detail": "示意界面区分已接入、未接入与缺失，保留来源及覆盖率。"
-        }
-      ],
-      "en": [
-        {
-          "title": "From overview to content",
-          "detail": "Separate views for platforms, accounts, schedules, individual content, categories and conversions."
-        },
-        {
-          "title": "Action after analysis",
-          "detail": "Reports, competitor trends, user feedback and the next test plan share one workspace."
-        },
-        {
-          "title": "Visible data definitions",
-          "detail": "The illustrative interface distinguishes connected, unconnected and missing data, with sources and coverage."
-        }
-      ]
-    },
-    "status": {
-      "zh": "可交互 Demo · 示意数据",
-      "en": "Interactive demo · Illustrative data"
-    },
-    "availability": {
-      "zh": "公开页为离线交互演示，数据均为示意值，不证明客户效果、平台实时接入或真实转化结果。",
-      "en": "The public page is an offline interactive demonstration using illustrative values. It does not establish client outcomes, live platform connections or real conversion results."
-    },
-    "role": {
-      "zh": "分析模块产品方案与交互设计",
-      "en": "Analytics product planning and interaction design"
-    },
-    "url": "https://flicy.github.io/cola-pages/provenmart-analysis/",
-    "linkLabel": {
-      "zh": "打开分析台 Demo",
-      "en": "Open analytics demo"
-    },
-    "links": [],
-    "screenshots": [
-      {
-        "src": "assets/portfolio/provenmart-analysis.png",
-        "caption": {
-          "zh": "平台总览：KPI、周趋势、内容构成与字段覆盖率，全部为示意数据。",
-          "en": "Overview: KPIs, weekly trends, content mix and coverage, all using illustrative data."
-        },
-        "kind": "public-demo",
-        "captured": "2026-10-15"
-      }
-    ]
   },
   {
     "id": "second-court",
